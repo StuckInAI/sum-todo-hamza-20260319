@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+
+# Build output
+.next
+out
+
+# Environment variables
+.env.local
+.env.production
+
+# Database files
+*.db
+*.db-journal
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+
+# TypeORM migrations
+src/migrations/*.js
